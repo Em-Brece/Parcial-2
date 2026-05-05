@@ -1,0 +1,21 @@
+package src.Logica;
+
+public class Parcial {
+	
+	public int potencia(int b, int e) throws Exception {
+		
+		int acc = b;
+	
+		for(int i=2; i<e; i++) {
+			
+		}
+		
+		if(acc>2147483647) {
+			
+			throw new Exception("fuera del scope posible");
+			
+		}
+		return acc;
+	}
+
+}
