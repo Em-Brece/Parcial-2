@@ -8,13 +8,15 @@ public class Parcial {
 	
 		for(int i=2; i<e; i++) {
 			
+			acc = acc * b;
+			
 		}
 		
 		if(acc>2147483647) {
 			
 			throw new Exception("fuera del scope posible");
-			
 		}
+		
 		return acc;
 	}
 
